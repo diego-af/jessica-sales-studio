@@ -1,0 +1,145 @@
+.container {
+  width: 100%;
+  display: flex;
+  flex-direction: column;
+  gap: 1rem;
+ padding: 0px 14rem;
+  animation:serviceAnimate 0.8s ease-in-out;
+}
+
+.container h4 {
+  font-size: 1.6rem;
+  color: #511f52;
+  font-weight: 700;
+}
+.all-cards {
+  display: flex;
+  gap: 2rem;
+  flex-wrap: wrap;
+}
+
+.all-cards .card-container {
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  width: 10rem;
+  gap: 1rem;
+  padding: 1rem;
+  border-radius: 1rem;
+  background: #feeafa;
+}
+.all-cards .card-container:hover {
+  outline: 2px solid #a987ab;
+  transition: ease-in-out;
+}
+
+.all-cards .card-container .title {
+  display: flex;
+  width: 100%;
+  text-align: center;
+  justify-content: center;
+  flex-direction: column;
+  justify-content: center;
+}
+.all-cards .card-container .title span {
+  width: 100%;
+  font-size: 1rem;
+  color: #511f52;
+  font-weight: 500;
+}
+.all-cards .card-container .title small {
+  width: 100%;
+  font-size: 0.9rem;
+  color: #511f52;
+  font-weight: 300;
+  text-align: center;
+}
+.middle {
+  display: flex;
+  justify-content: center;
+}
+.all-cards .card-container .middle .imagem {
+  display: flex;
+
+  font-size: 1rem;
+  width: 3rem;
+}
+.footer {
+  display: flex;
+  justify-content: center;
+}
+.all-cards .card-container .footer span {
+  display: flex;
+  align-items: center;
+  color: #511f52;
+  font-weight: 300;
+  font-size: 1.2rem;
+}
+.all-cards .card-container span small {
+  color: #511f52;
+  font-weight: bold;
+  font-size: 1.7rem;
+}
+@media screen and (max-width: 1400px) {
+  .container {
+   padding: 34px 8rem;
+  }
+    .all-cards{
+    display: flex;
+    gap: 1rem;
+    flex-wrap: wrap;
+  }
+@media screen and (max-width: 1200px) {
+  .container {
+        padding: 32px 8rem;
+  }
+    .all-cards{
+    display: flex;
+    gap: 1rem;
+    flex-wrap: wrap;
+  }
+@media screen and (max-width: 992px) {
+  .container {
+    padding: 33px 5rem;
+  }
+    .all-cards{
+    display: flex;
+    gap: 1rem;
+    flex-wrap: wrap;
+  }
+@media screen and (max-width: 882px) {
+  .container {
+    padding: 33px 5rem;
+  }
+    .all-cards{
+    display: flex;
+    gap: 1rem;
+    flex-wrap: wrap;
+  }
+@media screen and (max-width: 778px) {
+  .container {
+    padding: 33px 5rem;
+  }
+    .all-cards{
+    display: flex;
+    gap: 1rem;
+    flex-wrap: wrap;
+  }
+@media screen and (max-width: 578px) {
+  .container {
+    padding: 16px 1rem;
+  }
+
+
+}
+
+@keyframes serviceAnimate {
+  0% {
+    opacity: 0;
+    transform: translatey(-300px);
+  }
+
+  100% {
+    opacity: 1;
+    transform: translateX(0);
+  }

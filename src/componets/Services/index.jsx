@@ -30,7 +30,7 @@ const Services = () => {
           </div>
           <div className="footer">
             <span>
-              Preço: <small>35$</small>
+              Preço: <small>30$</small>
             </span>
           </div>
         </div>
@@ -69,7 +69,7 @@ const Services = () => {
           </div>
           <div className="footer">
             <span>
-              Preço: <small>300R$</small>
+              Preço: <small>120R$</small>
             </span>
           </div>
         </div>
@@ -89,14 +89,14 @@ const Services = () => {
           </div>
           <div className="footer">
             <span>
-              Preço: <small>300R$</small>
+              Preço: <small>450R$</small>
             </span>
           </div>
         </div>
         <div className="card-container">
           <div className="title">
             <span>Nails</span>
-            <small>(Unhas)</small>
+            <small>(Manicure e Pedicure)</small>
           </div>
 
           <div className="middle">
@@ -109,7 +109,7 @@ const Services = () => {
           </div>
           <div className="footer">
             <span>
-              Preço: <small>35$</small>
+              Preço: <small>100$</small>
             </span>
           </div>
         </div>
@@ -129,7 +129,7 @@ const Services = () => {
           </div>
           <div className="footer">
             <span>
-              Preço: <small>35$</small>
+              Preço: <small>80$</small>
             </span>
           </div>
         </div>
